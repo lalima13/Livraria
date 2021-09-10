@@ -1,0 +1,8 @@
+- Objetivo
+* Um site para atualizar leitores sobre novos livros.
+
+- Publico Alvo
+* Amentes da leitura que buscam novos titulos e resenhas sobre livros de diversos generos.
+
+- Palavras chaves
+
