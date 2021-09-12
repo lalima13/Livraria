@@ -1,8 +1,8 @@
 - Objetivo
-* Um site para atualizar leitores sobre novos livros.
+* Um site para agregar a vida dos amantes da leitura que buscam livros novos e informações sobre os autores.
 
 - Publico Alvo
-* Amentes da leitura que buscam novos titulos e resenhas sobre livros de diversos generos.
+* Amentes da leitura que buscam novos titulos, autores e resenhas sobre livros de diversos generos.
 
 - Palavras chaves
-
+* Livros, Leituras, Revistas, Autores, Ficcção, auto ajuda, aventura, aprendizagem, quadrinhos, mangas, ação, terror, romance, suspense, policial, comedia, educacional, saude, concursos.
