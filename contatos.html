@@ -1,0 +1,152 @@
+<!DOCTYPE html>            
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contato livraria - Lucas Lima">
+    <meta name="keywords" content="contato, email, mensagem, telefone, usuario" > 
+    
+    <title>Contato</title> 
+
+    <link rel="shortcut icon" href="imagens/ico_book.ico"> 
+    <link rel="stylesheet" type="text/css" href="css/estilo_home.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo_contatos.css">
+
+</head>
+<body>
+    <div id="interface">      
+          <header class="topo">  
+              <img src="imagens/banner-topo.jpg" alt="Logo" title="Main Library"> 
+              
+                <nav class="menu">   
+                
+                    <ul> 
+                        <li> 
+                             <a target="" href="index.html">Inicio</a> 
+                       </li>   
+                        <li>
+                            <a href="">Catálogo</a> 
+                                  <ul>
+                                      <li> 
+                                       <a target="" href="educacao.html">Livros educacionais</a>
+                                      </li>    
+                                      <li> 
+                                          <a target="" href="ebook.html">Ebook</a> 
+                                      </li>
+                                  </ul>
+                        </li>                   
+                        <li> 
+                           <a target="" href="aprender.html">Aprenda Gratuitamente</a>                                                          
+                        </li>  
+                        <li> <a target="" href="contatos.html">Contato</a> </li> 
+                    </ul>   
+
+                </nav>
+
+          </header>
+
+          <section id="banner">  
+             <img id="banner1" src="imagens/banner1.jpg" alt="mulherlendo" title="lendolivro"> 
+
+             <img id="banner2" src="imagens/banner2.jpg" alt="mulhersentada" title="sentadalendo">      
+          </section>
+             <form action="rodape">
+                 <fieldset>
+                    <legend>Identificação do usuário </legend> 
+                    <p>
+                        <label for="cnome">Nome</label>
+                        <input type="text" name="nome" id="cnome" size="30" maxlength="25" placeholder="Nome Completo" required autofocus>
+                    </p>
+                    <p>
+                        <label for="csenha"> Senha: </label>
+                        <input type="password" name="senha" id="csenha" maxlength="8" size="8" placeholder="8 digitos">          
+                    </p>
+                    <p>
+                        <label for="cmail"> E-mail</label>
+                        <input type="email" name="mail" id="cmail" size="30" placeholder="Seu e-mail" required>
+                    </p>
+
+                    <fieldset id="sexo">
+                        <legend> Sexo </legend>
+                        <p>
+                            <input type="radio" name="sexo" id="cmasc" checked>
+                            <label for="cmasc">Masculino</label>
+                        </p>    
+                        <p>    
+                            <input type="radio" name="sexo" id="cfemi">
+                            <label for="cfemi">Feminino</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="sexo" id="coutros">
+                            <label for="coutros">Outros</label>
+                        </p>    
+                    </fieldset>
+
+                    <p>
+                        <label for="cnasc"> Data de Nascimento </label>
+                        <input type="date" name="nasc" id="cnasc">
+                    </p>
+             </fieldset>
+             <fieldset id="endereco">
+                <legend>Endereço do usuario</legend>
+                <p>
+                    <label for="crua"> Logradouro </label>
+                    <input type="text" name="rua" size="50" id="crua" placeholder="Rua, Av., Trav,...">
+                </p>
+                ço do usuario</legend>
+                <p>
+                    <label for="cnum"> Numero: </label>
+                    <input type="text" name="rua" id="cnum" min="0" max="99999">
+                </p>
+                
+                <p>
+                    <label for="cest"> Estado: </label>
+                    <select name="est" id="cest">
+                          <optgroup label="Região Sudeste">
+                        <option value="SP"> São Paulo </option>
+                        <option value="RJ"> Rio de Janeiro </option>
+                        <option value="MG"> Minas Gerais </option>
+                        <option value="ES"> Espirito Santo </option>
+                         </optgroup>
+                         <optgroup label="Região Sul">
+                        <option value="SC"> Santa catarina </option>
+                        <option value="PR"> Parana </option>
+                        <option value="RS"> Rio Grande do Sul </option>
+                         </optgroup>
+                    </select>
+                </p>
+             </fieldset>
+             <fieldset id="mensagem">
+                 <legend>Mensagem do usuario</legend>
+                 <p> 
+                    <label for="cmsg">Mensagem:</label>
+                </p>
+                <p>
+                    <textarea name="msg" id="cmsg" cols="50" rows="7" placeholder="Digite sua mensagem..."></textarea>
+                </p>
+             </fieldset>
+             <input type="submit" name="enviar" class="btn">
+             <input type="reset" name="limpar" class="btn" value="Limpar">
+             </form>
+             <footer class="rodape">
+                <p>Desenvolvido para curso Técnico de Informática Somente para fins educativos.</p>
+
+                <p>
+                    <a target="_blank" href="https://www.instagram.com"> </a>
+                       <img src="imagens/logo-instagram.png" alt="">
+                    
+
+                    <a target="_blank" href="https://twitter.com/login?lang=ptSSS"></a>
+                        <img src="imagens/logo-twitter.png" alt="">
+                    
+                    <a target="blank" href="https://pt-br.facebook.com/"></a>
+                        <img src="imagens/logo-face.png" alt="">      
+                </p>
+            </footer>
+
+                 
+      
+</div>    
+</body>
+</html> 
